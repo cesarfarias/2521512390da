@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="The Future Of Transportation Is Here. Swagways gives your the power to ride the streets on the next generation of personal transport and swag!" name="description">
+    <meta content="" name="author">
+    <link href="assets/images/favicon-32x32.png" rel="shortcut icon">
+    <title>Swagways</title>
+    <link href="assets/stylesheets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/font-family.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/style.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/global.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/jquery.parallax.css" rel="stylesheet">
+    <link href="assets/stylesheets/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/stylesheets/css/effect2.css" rel="stylesheet" type="text/css">
+    <script src="assets/javascripts/modernizr.custom.js"></script>
+  </head>
+  <body class="demo-1 animated fadeIn">
+    <div class="ip-container" id="ip-container">
+      <!--initial header-->
+      <header class="ip-header">
+        <div class="ip-loader">
+          <svg class="ip-inner" height="60px" viewbox="0 0 80 80" width="60px"><path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"></path><path class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" id="ip-loader-circle"></path></svg>
+        </div>
+      </header>
+      <!--main content-->
+      <div class="ip-main">
+        <nav class="navbar navbar-fixed-top navbar-brand-swagways">
+          <!--We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns.-->
+          <div class="container">
+            <nav>
+              <div class="navbar-header">
+                <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#swagways-nav" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="cart-page.html#">SWAGWAYS</a>
+              </div>
+              <div class="collapse navbar-collapse" id="swagways-nav">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a href="index.html"> Home</a>
+                  </li>
+                  <li>
+                    <a href="man-collection.html"> Shop</a>
+                  </li>
+                  <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" role="button">Blog <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="blog-left.html">Blog Left Content</a>
+                      </li>
+                      <li>
+                        <a href="blog-right.html">Blog Right Content</a>
+                      </li>
+                      <li>
+                        <a href="blog.html">Blog Hide Filter</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="cart-page.html">Cart &nbsp;<span class="badge">1</span></a>
+                  </li>
+                  <li>
+                    <a href="contact.html"> Contact</a>
+                  </li>
+                  <li>
+                    <a data-target="#myModal" data-toggle="modal" href="http://bigdeee.com/demo/swagways/javascript(void:0);"> Login</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" id="open-search"><img alt="search-icon" src="assets/images/search-icon.png"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="search-open mar-top-10 hide">
+                <div class="form-group">
+                  <input class="form-control form-swagways" placeholder="Search Product" type="text">
+                </div>
+              </div>
+            </nav>
+          </div>
+        </nav>
+        <!--/.navbar-collapse--><!-- Modal -->
+        <div aria-labelledby="myModalLabel" class="modal modal-login" id="myModal" role="dialog" tabindex="-1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title text-center normal-heading" id="myModalLabel">
+                  Swagways
+                </h1>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-6">
+                    <label class="control-label text-uppercase mar-btm-10">Username</label><input class="form-control form-default-swagways" placeholder="Username" type="text">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-6">
+                    <label class="control-label text-uppercase mar-top-10 mar-btm-10">Password</label><input class="form-control form-default-swagways" placeholder="Password" type="password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-6">
+                    <a class="mar-top-10 mar-btm-0" href="cart-page.html#">Forgot Your Password ?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn-swagways btn-black-square" type="button"> Sign On your Account</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="chart-page">
+          <div class="container">
+            <div class="pull-top-header"></div>
+            <div class="top-chart">
+              <div class="wrap-list-cart">
+                <div class="row">
+                  <div class="col-sm-4 hidden-xs">
+                    <ul>
+                      <li>
+                        <div class="round-number">
+                          <div class="round-table">
+                            <div class="round-center">
+                              1
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="round-text-table">
+                          <h4>
+                            Billing Information
+                          </h4>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul>
+                      <li>
+                        <div class="round-number one-active">
+                          <div class="round-table">
+                            <div class="round-center">
+                              2
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="round-text-table">
+                          <h4>
+                            Confirmation Payment
+                          </h4>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 hidden-xs">
+                    <ul>
+                      <li>
+                        <div class="round-number">
+                          <div class="round-table">
+                            <div class="round-center">
+                              3
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="round-text-table">
+                          <h4>
+                            Finish Order Product
+                          </h4>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="product-cart">
+          <div class="container">
+            <div class="nav-product-cart">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="icon-chart">
+                    <img alt="cart-icon" src="assets/images/secure-icon.jpg">
+                  </div>
+                  <h3>
+                    Secure Checkout
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form-cart">
+          <div class="container">
+            <div class="form-content-cart">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1>
+                    Confirmation Payment
+                  </h1>
+                  <form class="form-horizontal">
+                    <div class="form-group line-form">
+                      <label class="col-sm-5 control-label text-uppercase">* Payment Method</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Visa
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* First Name</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Jhon
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group line-form">
+                      <label class="col-sm-5 control-label text-uppercase">* Last Name</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Doe
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* Email</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          youremail@gmail.com
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group line-form">
+                      <label class="col-sm-5 control-label text-uppercase">* Confirm Email</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          youremail@gmail.com
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* Address</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Jl Motherheels No E 77
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* City</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Cimahi
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* ZIP/Postal Code</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          40552
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* Country</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Indonesia
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-5 control-label text-uppercase">* State of Province</label>
+                      <div class="col-sm-7">
+                        <h4 class="normal-heading">
+                          Cimahi
+                        </h4>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-sm-6">
+                  <h1>
+                    Payment Options
+                  </h1>
+                  <div class="card-payment">
+                    <div class="form-group">
+                      <label class="text-uppercase">* Card Number</label>
+                      <h4 class="normal-heading">
+                        0345 3049 5043 5034 9503
+                      </h4>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <label class="text-uppercase">* Card Expiretion Date</label>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <h4 class="normal-heading">
+                              January
+                            </h4>
+                          </div>
+                          <div class="col-sm-6">
+                            <h4 class="normal-heading">
+                              1994
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        * CVV2/CVV2
+                        <h4 class="normal-heading">
+                          442
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="form-group mar-top-10 mar-btm-0">
+                      <label class="text-uppercase">* Card Holder Name</label>
+                      <h4 class="normal-heading">
+                        Jhon Doe
+                      </h4>
+                    </div>
+                  </div>
+                  <p class="mar-top-10">
+                    Your Payment is securely processed by our partner, Avangate. Who is Avangate? 
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-6">
+                  <a class="next-shop" href="index.html">
+                    <h4 class="normal-heading">
+                      &lt; Back To Shopping
+                    </h4>
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <button class="btn-swagways btn-green-square pull-right font-md mar-top-0" onclick="location.href=&#39;finish-page.html&#39;;" type="submit" value="Continue">Continue</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news-swagways mar-top-20">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>
+                  News
+                </h1>
+                <div class="owl-carousel owl-theme" id="owl-news">
+                  <div class="item">
+                    <div class="news-content news-content-one">
+                      <div class="row">
+                        <div class="col-sm-7">
+                          <h1>
+                            Urban Collection
+                          </h1>
+                          <div class="sale-news">
+                            <h1>
+                              50% sale
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="news-content news-content-two">
+                      <div class="row">
+                        <div class="col-sm-7">
+                          <h1>
+                            Hijab Collection
+                          </h1>
+                          <div class="sale-news">
+                            <h1>
+                              50% sale
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <h1>
+                  Blog
+                </h1>
+                <div class="owl-carousel owl-theme" id="owl-blog">
+                  <div class="item">
+                    <div class="blog-content green-blog">
+                      <h1>
+                        Bandung Great Sale
+                      </h1>
+                      <h1>
+                        Up To 50 % Off
+                      </h1>
+                      <a>Shop Now</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="blog-content purple-blog">
+                      <h1>
+                        Cimahi Great Sale
+                      </h1>
+                      <h1>
+                        Up To 70 % Off
+                      </h1>
+                      <a>Shop Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="subscribe-swagways">
+          <div class="container">
+            <h4 class="pull-left">
+              Lorem ipsum set amet mondern style clean momunde drees
+            </h4>
+            <button class="btn-swagways btn-black-square pull-right" data-target="#myModal" data-toggle="modal">Subscribe</button><img alt="hr-swagways" class="img-full-size hide" src="assets/images/hr.png">
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="logo-footer">
+                  <h1>
+                    swagways
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="about-footer">
+                      <h4>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.
+                      </h4>
+                      <div class="address-footer">
+                        <div class="img-map">
+                          <img alt="map-swagways" src="assets/images/map.png">
+                        </div>
+                        <div class="address-line">
+                          <h4>
+                            Jl Kalidam RT 05 RW 10 Cimahi Selatan, Indonesia Call : 085 327787266 
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="service-footer">
+                      <h1>
+                        Services
+                      </h1>
+                      <ul>
+                        <li>
+                          <a href="about.html">
+                            <h4>
+                              About
+                            </h4>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="term-of-use.html">
+                            <h4>
+                              Term of Use
+                            </h4>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="privacy-policy.html">
+                            <h4>
+                              Privacy Policy
+                            </h4>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="faq.html">
+                            <h4>
+                              FAQ
+                            </h4>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="404.html">
+                            <h4>
+                              404
+                            </h4>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="content-newsletter">
+                  <div class="header-newsletter">
+                    Newsletter
+                  </div>
+                  <div class="bottom-newsletter">
+                    <h4>
+                      Recive New Product & Special Price on your E-mail
+                    </h4>
+                    <div class="center-hr"></div>
+                    <h1>
+                      Get Voucher $20.00
+                    </h1>
+                    <div class="form-group">
+                      <input class="form-control form-swagways" id="exampleInputEmail1" placeholder="Your Email" type="email">
+                    </div>
+                    <button class="btn-swagways btn-black-square btn-swagways-full">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+        </footer>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="created pull-left hidden-xs">
+              <h4>
+                Created by Dn on Bigdeee company 2015
+              </h4>
+            </div>
+            <ul class="social-swagways pull-right">
+              <li>
+                <a href="https://www.facebook.com/mrbigdeee">
+                  <div class="center-sosmed">
+                    <p class="icon icon-facebook">
+                      &nbsp;
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/delip_nugraha">
+                  <div class="center-sosmed">
+                    <p class="icon icon-twitter">
+                      &nbsp;
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/bigdeee">
+                  <div class="center-sosmed">
+                    <p class="icon icon-behance">
+                      &nbsp;
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://dribbble.com/dn_7">
+                  <div class="center-sosmed">
+                    <p class="icon icon-dribbble">
+                      &nbsp;
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="center-sosmed">
+                    <p class="icon icon-paypal">
+                      &nbsp;
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="created mar-top-10 visible-xs">
+              <h4>
+                Created by Dn on Bigdeee company 2015
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/javascripts/jquery.js"></script>
+    <script src="assets/javascripts/bootstrap.js"></script>
+    <script src="assets/javascripts/custom.js"></script>
+    <script src="assets/javascripts/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/javascripts/jquery.parallax.js"></script>
+    <script src="assets/javascripts/classie.js"></script>
+  </body>
+  <script src="assets/javascripts/pathLoader.js"></script>
+  <script src="assets/javascripts/main.js"></script>
+</html>
