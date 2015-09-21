@@ -1,0 +1,323 @@
+/* 
+=============================================== 
+Table Of Content
+=============================================== 
+
+1. Global CSS HTML
+  1.1 Heading
+  1.2 Default Ul li
+  1.3 Default Link Selection & Hr
+  1.4 Normal Heading and Padding
+  1.5 Button style Swagways Section
+  1.6 Form Swagways Section
+
+-------------------------------------------- */
+/* 
+=============================================== 
+1. Global CSS HTML
+===============================================
+*/
+.normal-heading {
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mar-top-10 {
+  margin-top: 10px;
+}
+.mar-top-20 {
+  margin-top: 20px;
+}
+.mar-right-10 {
+  margin-right: 10px;
+}
+.mar-left-10 {
+  margin-left: 10px;
+}
+.mar-btm-0 {
+  margin-bottom: 0;
+}
+.mar-btm-10 {
+  margin-bottom: 10px;
+}
+.mar-btm-20 {
+  margin-bottom: 20px;
+}
+.no-mar-right {
+  margin-right: 0 !important;
+}
+.no-pad-right {
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .no-pad-right {
+    padding-right: 0;
+  }
+}
+.no-pad-left {
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .no-pad-left {
+    padding-left: 0;
+  }
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-btm-10 {
+  padding-bottom: 10px;
+}
+.img-swagways-center {
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .img-swagways-center-res {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.img-full-size {
+  width: 100%;
+}
+body {
+  font-family: 'latoregular';
+  color: #292929;
+}
+/* 
+=============================================== 
+1.1 Heading
+===============================================
+*/
+h1 {
+  font-family: 'montserratbold';
+  font-size: 33px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+h2 {
+  font-family: 'always';
+  font-size: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 50px;
+  }
+}
+h3 {
+  font-family: 'latoregular';
+  -webkit-font-smoothing: antialiased;
+}
+h4 {
+  line-height: 25px;
+}
+h5 {
+  font-family: 'montserratregular';
+  -webkit-font-smoothing: antialiased;
+}
+/* 
+=============================================== 
+1.2 Default Ul li 
+===============================================
+*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* 
+=============================================== 
+1.3 Default Link Selection & Hr
+===============================================
+*/
+a {
+  color: #292929;
+}
+a:hover {
+  color: #101010;
+}
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+hr {
+  border-top: 2px #d6d6d6 solid;
+  clear: both;
+}
+/* 
+=============================================== 
+1.4 Normal Heading and Padding
+===============================================
+*/
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+.pull-top-header {
+  margin-top: 81px;
+}
+.normal-heading {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.pad-top-0i {
+  padding-top: 0 !important;
+}
+.mar-both-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.center-hr {
+  height: 2px;
+  background-color: #292929;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/* 
+=============================================== 
+1.5 Button style Swagways Section
+===============================================
+*/
+.btn-swagways {
+  text-transform: uppercase;
+  border: none;
+}
+.btn-swagways:focus,
+.btn-swagways:active,
+.btn-swagways.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-swagways.btn-black-square {
+  background-color: #292929;
+  color: #ffffff;
+  font-family: 'montserratregular';
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  border: solid 1px #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-swagways.btn-black-square:hover {
+  background-color: #ffffff;
+  color: #292929;
+  border: solid 1px #292929;
+}
+.btn-swagways.btn-green-square {
+  background-color: #90e3aa;
+  color: #ffffff;
+  font-family: 'montserratregular';
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  border: solid 1px #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-swagways.btn-green-square:hover {
+  background-color: #3fce6c;
+  color: #ffffff;
+}
+.btn-swagways.btn-swagways-yellow {
+  background-color: #f4cd59;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 15px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+@media (min-width: 992px) {
+  .btn-swagways.btn-swagways-yellow {
+    font-size: 20px;
+  }
+}
+.btn-swagways.btn-swagways-yellow:hover {
+  background-color: #f1bf29;
+  color: #ffffff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.btn-swagways-full {
+  width: 100%;
+}
+.icon-bar {
+  background-color: #292929;
+}
+.btn-default-swagways {
+  border: solid 1px #292929;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-color: #ffffff;
+}
+.caret-swagways {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  border-top: 7px solid;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+/* 
+=============================================== 
+1.6 Form Swagways Section
+===============================================
+*/
+.font-md {
+  font-size: 20px;
+}
+.form-swagways {
+  font-family: 'montserratregular';
+  border: solid 1px #292929;
+  font-style: italic;
+  color: #292929;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 20px 10px;
+}
+.form-swagways:focus {
+  box-shadow: none;
+  border: solid 1px #292929;
+}
+.form-default-swagways {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.form-default-swagways:focus {
+  box-shadow: none;
+}
